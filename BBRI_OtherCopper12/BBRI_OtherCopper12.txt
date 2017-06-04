@@ -1,0 +1,525 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Broadband Rhode Island
+      Publication_Date: 20121001
+      Title: Broadband Wireline Provider Service: Other Copper Wireline; BBRI_otherCopper12
+      Edition: October 2012
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Broadband Rhode Island
+        Publisher: Providence, Rhode Island
+      Other_Citation_Details: Suggested bibliographic reference: RIGIS, 2012. Broadband Wireline Provider Service: Other Copper Wireline; BBRI_otherCopper12. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 16 October 2014).
+      Online_Linkage: http://broadband.ri.gov
+      Online_Linkage: http://www.rigis.org
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Broadband Rhode Island
+          Publication_Date: 20121001
+          Title: Broadband Availability
+          Edition: October 2012
+          Geospatial_Data_Presentation_Form: vector digital data
+          Publication_Information:
+            Publication_Place: Broadband Rhode Island
+            Publisher: Providence, Rhode Island
+          Online_Linkage: http://broadband.ri.gov
+          Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: This dataset represents the availability of wireline broadband Internet access in Rhode Island via "Other Copper Wireline" technology.  In Rhode Island, this category encompasses facilities-based providers that offer technologies such as Ethernet Over First Mile (EFM+) and T1 channels.  Broadband availability is summarized at the census block level using the US Census Bureau's 2010 decennial census measurement areas. These data were compiled by Broadband Rhode Island (http://broadband.ri.gov) in support of the National Telecommunications and Infrastructure Administration (NTIA) State Broadband Initiative (http://www2.ntia.doc.gov/sbdd). Broadband is considered to be available within a census block if a facilities-based provider of broadband service currently serves at least one location within the block, or can provide broadband services of minimal characteristics to at least one location within the block within 7 - 10 business days. For each census block, the provider name and the respective technologies they provide are represented. In addition, general categories for maximum advertised upload and download speeds are also reported for most provider / technology type / census block combinations.
+    Purpose: These data were created in support of Broadband Rhode Island to depict broadband infrastructure and connectivity in Rhode Island.
+    Supplemental_Information:
+      Number of wireline broadband providers that serve the census block using the technology type "Other Copper Wireline".
+      Other Copper Wireline wireline broadband technology definition:
+      "These are other technologies that use phone lines to transmit data. Examples include T-1 and ISDN lines."
+      (Definition credit: NTIA National Broadband Map Broadband Classroom, http://www.broadbandmap.gov/classroom/technology.  Date last access: 2 October 2012.)
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20120630
+    Currentness_Reference: ground condition
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: Biannually
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.641324
+      East_Bounding_Coordinate: -71.130457
+      North_Bounding_Coordinate: 42.018305
+      South_Bounding_Coordinate: 41.448475
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Categories
+      Theme_Keyword: utilitiesCommunication
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: broadband
+      Theme_Keyword: internet
+      Theme_Keyword: wireline
+      Theme_Keyword: Other Copper Wireline
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: United States
+      Place_Keyword: New England
+      Place_Keyword: Northeast
+  Access_Constraints: None.
+  Use_Constraints:
+    This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+    Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products. Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Greg Bonynge
+      Contact_Position: Geospatial Extension Specialist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: Coastal Institute
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-2180
+      Contact_Electronic_Mail_Address: greg@edc.uri.edu
+  Native_Data_Set_Environment: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400
+  Cross_Reference:
+    Citation_Information:
+      Originator: National Telecommunications and Information Administration (NTIA)
+      Publication_Date: 20120101
+      Title: National Broadband Map
+      Online_Linkage: http://www.broadbandmap.gov
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Attribute information is populated by the providers and to date has not been changed without their approval. Broadband Rhode Island is performing broadband speed test and dead zone reporting to help verify the accuracy of the data being provided. A comparison and analysis between the attribute data and the speed test/dead zone reports is available through Broadband Rhode Island and is provided to the NTIA as part of the broadband report.
+  Logical_Consistency_Report: The census block data are logically consistent with the location of the broadband services being provided. Spatial analysis checks have been performed on each provider's service area. Once the analysis is preformed inconsistencies are reported to the data provider. To date the data have only been corrected if the provider agrees that a change is needed.
+  Completeness_Report: Census block level data were provided for all identified wireline providers in the state of Rhode Island. However, not all of the providers included complete data attributes for the census block coverage. Additionally, not all providers knew their entire coverage area and were only able to provide the coverage areas where they have customers. So for some providers this dataset does not represent their complete potential coverage area, rather only where customers currently exist. This dataset will never be considered 100% complete unless the providers decide to provide Broadband Rhode Island with all of their repective coverage area information.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Census block coverage area information is supplied by the providers and matched to the US census data information. The census block location is 100% accurate. Logical analysis checks were performed by RIEDC in coordination with the providers to help assure data accuracy for coverage areas.
+  Lineage:
+    Process_Step:
+      Process_Description: Providers reported their coverage area in text file format. The data was then converted to a database table and joined to the census block layer to get a spatial attribute. Coverage areas with speeds below broadband ranges were then removed from the dataset. The provider's census block dataset was then loaded into the data transfer model. Spatial analysis was performed to look for logical gaps in the data. Speed test information was also collected and analyzed against the provider's coverage data. Any discrepancies found are reported to the provider as possible changes to their data. Changes are not made unless the provider tells Broadband Rhode Island that the correction should be made.
+      Process_Date: 20120101
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: EA Engineering, Science, and Technology, Inc.
+            Contact_Person: Joe Deluca, GISP
+          Contact_Position: GIS Manager
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 225 Schilling Circle
+            City: Hunt Valley
+            State_or_Province: Maryland
+            Postal_Code: 21031
+            Country: US
+          Contact_Voice_Telephone: 410-329-5118
+          Contact_Electronic_Mail_Address: jdeluca@eaest.com
+    Process_Step:
+      Process_Description: Broadband wireline provider data extracted, summarized, and exported to a series of flat shapefiles. Metadata adapted for RIGIS data distribution from metadata originally written by EA Engineering staff and provided with the associated semiannual data submission to the NTIA. The census blocks represented in this dataset do not represent all census blocks in Rhode Island. Census blocks that represent offshore areas in Block Island Sound, Narragansett Bay, and Rhode Island's coastal salt ponds were removed prior to joining and subsequently processing wireline broadband data collected by Broadband Rhode Island.
+      Process_Date: 201209
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Greg Bonynge
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-2180
+          Contact_Electronic_Mail_Address: greg@edc.uri.edu
+          Contact_Instructions: email preferred
+    Process_Step:
+      Process_Description: Data contributed to RIGIS by Broadband Rhode Island. Metadata were reviewed, RIGIS distribution information added.
+      Process_Date: 20120927
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Greg Bonynge
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-2180
+          Contact_Electronic_Mail_Address: greg@edc.uri.edu
+          Contact_Instructions: email preferred
+    Process_Step:
+      Process_Description: Updated Point of Contact information for this dataset from "Joe Deluca" to "Greg Bonynge."
+      Process_Date: 20150601
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: Coastal Institute
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 13298
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3800
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999994
+            Longitude_of_Central_Meridian: -71.500000
+            Latitude_of_Projection_Origin: 41.083333
+            False_Easting: 328083.333333
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000
+          Ordinate_Resolution: 0.000000
+        Planar_Distance_Units: survey feet
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: census block
+      Entity_Type_Definition: U.S. Census Bureau census block as defined by year 2010 TIGER Line files
+      Entity_Type_Definition_Source: Broadband Rhode Island
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: STATEFP10
+      Attribute_Definition: 2010 Census state Federal Information Processing Standards (FIPS) code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: INCITS.38-200x (R2004), Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States (Formerly FIPS 5-2)
+          Codeset_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: COUNTYFP10
+      Attribute_Definition: 2010 Census county Federal Information Processing Standards (FIPS) code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: INCITS.31-200x (R2007), Codes for the Identification of the Counties and Equivalent Areas of the United States, Puerto Rico, and the Insular Areas of the United States (Formerly FIPS 6-4)
+          Codeset_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: TRACTCE10
+      Attribute_Definition: 2010 Census Bureau census tract code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 000000
+          Enumerated_Domain_Value_Definition: Water tract in some coastal and Great Lakes water and territorial sea
+          Enumerated_Domain_Value_Definition_Source: U.S. Census
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 000100 to 998999
+          Enumerated_Domain_Value_Definition: Census tract number
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: BLOCKCE10
+      Attribute_Definition: 2010 Census Bureau tabulation block number
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0001 to 9999
+          Enumerated_Domain_Value_Definition: tabulation block number
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: GEOID10
+      Attribute_Definition: Block identifier; a concatenation of 2010 Census state Federal Information Processing Standards (FIPS) code, county FIPS code, census tract code, and tabulation block number
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: INCITS.38-200x (R2004), Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States (Formerly FIPS 5-2), INCITS.31-200x (R2007), Codes for the Identification of the Counties and Equivalent Areas of the United States, Puerto Rico, and the Insular Areas of the United States (Formerly FIPS 6-4), the census tract code that appears in TRACTCE10 and the tabulation block number that appears in BLOCKCE10
+          Codeset_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: Brd
+      Attribute_Definition: Indicates presence or absence of service availability from Broadview Networks Inc within census block using the broadband technology type represented by this dataset.
+      Attribute_Definition_Source: Broadband Rhode Island
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: No, census block is not served by the provider represented by this field.
+          Enumerated_Domain_Value_Definition_Source: Broadband Rhode Island
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Yes, census block is served by the provider represented by this field.
+          Enumerated_Domain_Value_Definition_Source: Broadband Rhode Island
+    Attribute:
+      Attribute_Label: Brd_MXDWN
+      Attribute_Definition: Maximum advertised download speed available within census block as reported by Broadview Networks Inc using the broadband technology type represented by this dataset.
+      Attribute_Definition_Source: Broadband Rhode Island
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Greater than 200 kbps and less than 768 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: Greater than or equal to 768 kbps and less than 1.5 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: Greater than or equal to 1.5 mbps and less than 3 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: Greater than or equal to 3 mbps and less than 6 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: Greater than or equal to 6 mbps and less than 10 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: Greater than or equal to 10 mbps and less than 25 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 8
+          Enumerated_Domain_Value_Definition: Greater than or equal to 25 mbps and less than 50 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9
+          Enumerated_Domain_Value_Definition: Greater than or equal to 50 mbps and less than 100 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 10
+          Enumerated_Domain_Value_Definition: Greater than or equal to 100 mbps and less than 1 gbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 11
+          Enumerated_Domain_Value_Definition: Greater than or equal to 1 gbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+    Attribute:
+      Attribute_Label: Brd_MXUP
+      Attribute_Definition: Maximum advertised upload speed available within census block as reported by Broadview Networks Inc using the broadband technology type represented by this dataset.
+      Attribute_Definition_Source: Broadband Rhode Island
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Greater than 200 kbps and less than 768 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: Greater than or equal to 768 kbps and less than 1.5 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: Greater than or equal to 1.5 mbps and less than 3 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: Greater than or equal to 3 mbps and less than 6 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: Greater than or equal to 6 mbps and less than 10 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: Greater than or equal to 10 mbps and less than 25 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 8
+          Enumerated_Domain_Value_Definition: Greater than or equal to 25 mbps and less than 50 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9
+          Enumerated_Domain_Value_Definition: Greater than or equal to 50 mbps and less than 100 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 10
+          Enumerated_Domain_Value_Definition: Greater than or equal to 100 mbps and less than 1 gbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 11
+          Enumerated_Domain_Value_Definition: Greater than or equal to 1 gbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+    Attribute:
+      Attribute_Label: Meg
+      Attribute_Definition: Indicates presence or absence of service availability from Megapath Corporation within census block using the broadband technology type represented by this dataset.
+      Attribute_Definition_Source: Broadband Rhode Island
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: No, census block is not served by the provider represented by this field.
+          Enumerated_Domain_Value_Definition_Source: Broadband Rhode Island
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Yes, census block is served by the provider represented by this field.
+          Enumerated_Domain_Value_Definition_Source: Broadband Rhode Island
+    Attribute:
+      Attribute_Label: Meg_MXDWN
+      Attribute_Definition: Maximum advertised download speed available within census block as reported by Megapath Corporation using the broadband technology type represented by this dataset.
+      Attribute_Definition_Source: Broadband Rhode Island
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Greater than 200 kbps and less than 768 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: Greater than or equal to 768 kbps and less than 1.5 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: Greater than or equal to 1.5 mbps and less than 3 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: Greater than or equal to 3 mbps and less than 6 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: Greater than or equal to 6 mbps and less than 10 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: Greater than or equal to 10 mbps and less than 25 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 8
+          Enumerated_Domain_Value_Definition: Greater than or equal to 25 mbps and less than 50 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9
+          Enumerated_Domain_Value_Definition: Greater than or equal to 50 mbps and less than 100 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 10
+          Enumerated_Domain_Value_Definition: Greater than or equal to 100 mbps and less than 1 gbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 11
+          Enumerated_Domain_Value_Definition: Greater than or equal to 1 gbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+    Attribute:
+      Attribute_Label: Meg_MXUP
+      Attribute_Definition: Maximum advertised upload speed available within census block as reported by Megapath Corporation using the broadband technology type represented by this dataset.
+      Attribute_Definition_Source: Broadband Rhode Island
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Greater than 200 kbps and less than 768 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: Greater than or equal to 768 kbps and less than 1.5 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: Greater than or equal to 1.5 mbps and less than 3 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: Greater than or equal to 3 mbps and less than 6 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: Greater than or equal to 6 mbps and less than 10 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: Greater than or equal to 10 mbps and less than 25 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 8
+          Enumerated_Domain_Value_Definition: Greater than or equal to 25 mbps and less than 50 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9
+          Enumerated_Domain_Value_Definition: Greater than or equal to 50 mbps and less than 100 mbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 10
+          Enumerated_Domain_Value_Definition: Greater than or equal to 100 mbps and less than 1 gbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 11
+          Enumerated_Domain_Value_Definition: Greater than or equal to 1 gbps
+          Enumerated_Domain_Value_Definition_Source: National Telecommunications and Information Administration
+    Attribute:
+      Attribute_Label: TotalProv
+      Attribute_Definition: Total number of wireline broadband providers that serve the census block using the broadband technology type represented by this dataset.
+      Attribute_Definition_Source: Broadband Rhode Island
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 2
+          Attribute_Units_of_Measure: individual provider
+          Attribute_Measurement_Resolution: 1
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.
+Metadata_Reference_Information:
+  Metadata_Date: 20121003
+  Metadata_Review_Date: 20121009
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Greg Bonynge
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-2180
+      Contact_Electronic_Mail_Address: greg@edc.uri.edu
+      Contact_Instructions: email preferred
+  Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
