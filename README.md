@@ -7,10 +7,10 @@ BBRI assembles and submits these data on a semi-annual basis to the NTIA, which 
 An attribute field (titled "TOTAL_PROV") that tallies the total number of providers per census block has been added to each shapefile that represents individual wireline technology types. Wireline and wireless technology summary files are also provided that tally the number of technology types and providers per census block, presence/absence of a provider per census block, and the number of providers that offer a given broadband technology type per census block.
 
 ## Datasets
-* [Summary](./BBRI_wirelineSum12)
-* [Cable Modem - DOCSIS 3.0](./BBRI_cableDOCSIS12)
-* [Cable Modem - Other](./BBRI_cableOther12)
-* [xDSL - Asymmetric](./BBRI_DSLasym12)
-* [xDSL - Symmetric](./BBRI_DSLsym12)
-* [Optical Carrier/Fiber to the End User](./BBRI_fiber12)
-* [Other Copper Wireline](./BBRI_otherCopper12)
+* [Summary](./BBRI_wirelineSum12) ([Map](./BBRI_wirelineSum12.geojson))
+* [Cable Modem - DOCSIS 3.0](./BBRI_cableDOCSIS12) ([Map](./BBRI_cableDOCSIS12.geojson))
+* [Cable Modem - Other](./BBRI_cableOther12) ([Map](./BBRI_cableOther12.geojson))
+* [xDSL - Asymmetric](./BBRI_DSLasym12) ([Map](./BBRI_DSLasym12.geojson))
+* [xDSL - Symmetric](./BBRI_DSLsym12) ([Map](./BBRI_DSLsym12.geojson))
+* [Optical Carrier/Fiber to the End User](./BBRI_fiber12) ([Map](./BBRI_fiber12.geojson))
+* [Other Copper Wireline](./BBRI_otherCopper12) ([Map](./BBRI_otherCopper12.geojson))
